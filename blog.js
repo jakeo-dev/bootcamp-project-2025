@@ -1,7 +1,7 @@
 var blogposts = [
     {
         title: "Who, What, Where, When, Why, and How Am I?",
-        date: "October 16th, 2025",
+        date: "October 11th, 2025",
         description: "What?",
         image: "/bottom-up-view-washington.jpg",
         imageAlt: "Bottom-up view of trees in Snoqualmie, Washington",
