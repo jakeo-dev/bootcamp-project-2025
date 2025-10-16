@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  p {
+    @apply leading-7 mt-4;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  li {
+    @apply leading-7;
+  }
+
+  .title1 {
+    @apply text-3xl font-bold mb-8 mt-16;
+  }
+
+  .title2 {
+    @apply text-2xl font-semibold mb-4 mt-8;
+  }
+
+  .title3 {
+    @apply text-xl font-medium mb-2 mt-4;
+  }
+
+  .img {
+    @apply border-8 shadow-sm;
+  }
+
+  .link {
+    @apply underline text-orange-800 transition hover:text-orange-900 hover:decoration-1 hover:decoration-wavy;
+  }
+
+  .section {
+    @apply mt-10;
+  }
+
+  .about-image {
+    @apply flex items-center justify-start mt-4 mb-10;
+  }
+
+  .post-image {
+    @apply w-full mt-4 mb-2 border-6 border-orange-400 rounded-3xl;
+  }
+
+  .post-image-small {
+    @apply w-4/5 mt-4 mb-2 border-4 border-orange-400 rounded-md;
+  }
+
+  .title-subtext1 {
+    @apply mt-1;
+  }
+
+  .title-subtext2 {
+    @apply text-sm text-stone-700 mt-0;
+  }
+
+  .subtext1 {
+    @apply text-sm text-gray-600 mt-0 italic mb-6;
+  }
+
+  .subtext2 {
+    @apply text-xs text-gray-500 mt-0 italic mb-6;
+  }
+
+  .entry-info {
+    @apply mt-1;
+  }
+
+  .entry-description {
+    @apply mt-1;
+  }
 }
