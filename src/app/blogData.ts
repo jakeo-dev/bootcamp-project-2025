@@ -23,13 +23,13 @@ const blogs: Blog[] = [
         <p>
             Here's a(n unordered) list of some other things I like:
         </p>
-        <ul className="">
-            <li>• Terraria</li>
-            <li>• 70s/80s pop music</li>
-            <li>• Board games</li>
-            <li>• Google software/hardware</li>
-            <li>• My MacBook Air</li>
-            <li>• Cats</li>
+        <ul class="list-disc list-inside">
+            <li>Terraria</li>
+            <li>70s/80s pop music</li>
+            <li>Board games</li>
+            <li>Google software/hardware</li>
+            <li>My MacBook Air</li>
+            <li>Cats</li>
         </ul>
         <img class="post-image-small" src="/jaxie-and-benny.png">
         <p class="subtext1">One of my cats, Benny, trying to bite the tail of my other cat, Jaxie, for some
@@ -48,9 +48,9 @@ const blogs: Blog[] = [
         <p class="subtext1">The Trevi Fountain in Rome, Italy.</p>
         <p>
             I'm also on the internet. You can find me on my personal website <a href="https://jakeo.dev"
-                target="_blank">jakeo.dev</a>, or <a href="https://github.com/jakeo-dev" target="_blank">my GitHub</a>
-            or <a href="https://www.linkedin.com/in/jakeo-dev/" target="_blank">my LinkedIn</a> or my Discord
-            (@jakeybakers) or <a href="mailto:hi@jakeo.dev" target="_blank">my email</a>.
+                target="_blank" class="link">jakeo.dev</a>, or <a href="https://github.com/jakeo-dev" target="_blank" class="link">my GitHub</a>
+            or <a href="https://www.linkedin.com/in/jakeo-dev/" target="_blank" class="link">my LinkedIn</a> or my Discord
+            (@jakeybakers) or <a href="mailto:hi@jakeo.dev" target="_blank" class="link">my email</a>.
         </p>
 
         <h2 class="title2">When Am I?</h2>
