@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header className="hover:scale-101 transition duration-[2000ms] bg-orange-200 shadow-lg shadow-orange-200/50 rounded-lg p-4 my-8 flex items-center">
-      <h1 className="font-bold pl-2">Jake's Hack4Impact Website</h1>
+      <h1 className="font-bold pl-2">{`Jake's Hack4Impact Website`}</h1>
       <nav className="ml-auto flex gap-0.5">
         <Link
           href="/"

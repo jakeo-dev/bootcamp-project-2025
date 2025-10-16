@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <h1 className="title1">Hi, I'm Jake</h1>
+      <h1 className="title1">{`Hi, I'm Jake`}</h1>
       <div className="about">
         <div className="mb-12 flex justify-start">
           <Image
@@ -15,8 +15,8 @@ export default function Home() {
           />
         </div>
         <p className="bg-stone-300 rounded-md shadow-sm w-full p-3 text-center text-pretty">
-          I'm a Computer Science student at Cal Poly SLO who likes to build
-          digital things.
+          {`I'm a Computer Science student at Cal Poly SLO who likes to build
+          digital things.`}
         </p>
         <div className="my-12 flex justify-center">
           <Image
