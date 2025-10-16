@@ -34,15 +34,15 @@
   }
 
   .about-image {
-    @apply flex items-center justify-start mt-4 mb-10;
+    @apply flex items-center justify-start mt-4 mb-10 shadow-md shadow-orange-300/80;
   }
 
   .post-image {
-    @apply w-full mt-4 mb-2 border-6 border-orange-400 rounded-3xl;
+    @apply w-full mt-4 mb-2 border-6 border-orange-400 rounded-4xl shadow-md shadow-orange-300/80;
   }
 
   .post-image-small {
-    @apply w-4/5 mt-4 mb-2 border-4 border-orange-400 rounded-md;
+    @apply w-4/5 mt-4 mb-2 border-4 border-orange-400 rounded-md shadow-sm shadow-orange-300/70;
   }
 
   .title-subtext1 {

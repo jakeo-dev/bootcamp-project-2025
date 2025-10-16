@@ -11,7 +11,7 @@ export default function Home() {
             alt="Flamingos"
             width={300}
             height={150}
-            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md"
+            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md shadow-orange-300/80"
           />
         </div>
         <p className="bg-stone-300 rounded-md shadow-sm w-full p-3 text-center text-pretty">
@@ -24,7 +24,7 @@ export default function Home() {
             alt="Google art"
             width={300}
             height={150}
-            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-top rounded-2xl shadow-md"
+            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-top rounded-2xl shadow-md shadow-orange-300/80"
           />
         </div>
         <p className="bg-stone-300 rounded-md shadow-sm w-full p-3 text-center text-pretty">
@@ -37,7 +37,7 @@ export default function Home() {
             alt="Rubber duck"
             width={300}
             height={150}
-            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-top rounded-2xl shadow-md"
+            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-top rounded-2xl shadow-md shadow-orange-300/80"
           />
         </div>
         <p className="bg-stone-300 rounded-md shadow-sm w-full p-3 text-center text-pretty">
@@ -50,7 +50,7 @@ export default function Home() {
             alt="Rubber duck"
             width={300}
             height={150}
-            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md"
+            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md shadow-orange-300/80"
           />
         </div>
         <p className="bg-stone-300 rounded-md shadow-sm w-full p-3 text-center text-pretty">
@@ -62,7 +62,7 @@ export default function Home() {
             alt="Rubber duck"
             width={300}
             height={150}
-            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md"
+            className="w-[80%] border-4 h-36 border-orange-400 object-cover object-center rounded-2xl shadow-md shadow-orange-300/80"
           />
         </div>
       </div>
