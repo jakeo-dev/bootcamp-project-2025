@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/JakeOrchanian/bootcamp-project-2025/bootcamp-milestone-2/src/app/layout\":[\"static/media/793968fa3513f5d6-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
