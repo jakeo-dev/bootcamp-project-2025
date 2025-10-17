@@ -79,7 +79,7 @@ const blogs: Blog[] = [
     description:
       "How I improved the code of my vanity phone number generator website, Cifra.",
     image:
-      "https://www.jakeo.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthumbnail.baee33cf.png&w=3840&q=75",
+      "/dialing-letters-instead-of-digits.png",
     imageAlt: "Overlapping lists of random words and numbers",
     slug: "dialing-letters-instead-of-digits",
     html: `
